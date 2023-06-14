@@ -13,6 +13,29 @@ For the chat announcements, special syntax is used to color the messages in coor
 
 
 
+## Commands / Usage
+
+| Console Command | Chat Command     | Description                |
+| :-------- | :------- | :------------------------- |
+| `ulx enablemathquestions` | `!enablemathquestions` | Enables the script |
+| `ulx disablemathquestions` | `!enablemathquestions` | Disables the script |
+
+#### Configuration
+This is all inside of the single file included within the repository.
+
+| Parameter | Example     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `questionFrequency`      | `30` | Sets the frequency of questions to 30 seconds |
+| `minNumber`      | `1` | Sets the minumum number to be used in each addition question |
+| `maxNumber`      | `99` | Sets the maximum number to be used in each addition question |
+| `resultFile`      | `correct_answers.txt` | Defines the file that correct user answers will be stored in (By default, located in garrysmod/data/correct_answers.txt) |
+
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
+
+
 ## Screenshots
 
 ![Demo screenshot](https://i.imgur.com/WNukb45.png)
