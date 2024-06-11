@@ -45,5 +45,5 @@ Takes two numbers and returns the sum.
 
 ## Authors
 
-- [@SaladGFL](https://www.github.com/SaladGFL)
+- [@SaladsBowl](https://www.github.com/SaladsBowl)
 
